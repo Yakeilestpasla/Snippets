@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="listetest">
+        <item>gestion des differents spinner</item>
+        <item>spinner xml &amp; java</item>
+        <item>spinner xml</item>
+        <item>spinner only java</item>
+    </string-array>
+
+
+
+
+</resources>

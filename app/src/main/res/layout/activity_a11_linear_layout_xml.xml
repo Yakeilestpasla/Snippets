@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
-    tools:context=".a1_layout_xml.A11_LinearLayoutXml">
+    tools:context=".A11_LinearLayoutXml">
 
     <TextView
         android:id="@+id/textView2"
