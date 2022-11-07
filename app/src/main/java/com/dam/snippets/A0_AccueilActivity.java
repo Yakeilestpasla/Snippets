@@ -17,6 +17,8 @@ public class A0_AccueilActivity extends AppCompatActivity {
     TextView videoView;
     TextView lvListViewIndex;
     TextView tvSpinnerIndex;
+    TextView gridLayoutIndex;
+
 
     /**
      * Méthode pour lier design au code
@@ -27,6 +29,7 @@ public class A0_AccueilActivity extends AppCompatActivity {
         videoView = findViewById(R.id.videoViewIndex);
         lvListViewIndex = findViewById(R.id.lvListViewIndex);
         tvSpinnerIndex = findViewById(R.id.tvSpinnerIndex);
+        gridLayoutIndex = findViewById(R.id.gridLayoutIndex);
     }
 
     @Override
@@ -60,15 +63,21 @@ public class A0_AccueilActivity extends AppCompatActivity {
             }
 
         });
-        tvSpinnerIndex.setOnClickListener(new View.OnClickListener(){
+        tvSpinnerIndex.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick (View tvSpinnerIndex){
+            public void onClick(View tvSpinnerIndex) {
                 // Départ //Arrivée
                 Intent intent = new Intent(A0_AccueilActivity.this, A52_Spinner.class);
                 startActivity(intent);
             }
         });
-
-
-        }
+        gridLayoutIndex.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View gridLayoutIndex) {
+                // Départ //Arrivée
+                Intent intent = new Intent(A0_AccueilActivity.this, A16_GridLayoutXml.class);
+                startActivity(intent);
+            }
+        });
+    }
 }
